@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(63, 63, 62);
+}
+section{
+    width: 80vw;
+    /* height: 100vh; */
+    background-color: rgb(172, 173, 175);
+    margin-inline: auto;
+    box-shadow:  0px 0px 2rem 2rem rgb(244, 238, 238);
+}
+section > .container{
+    width: 100%;
+    height: 450px;
+    background-color: antiquewhite;
+}
+.container > .inner{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right,  rgb(27, 36, 39), transparent), url("./media/kthub6.jpg");
+}
+.inner > h1{
+    text-align: center;
+   font-size: 3rem;
+}
+.inner > p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.inner > div > p{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: rgb(168, 175, 181);
+}
+section > .container-2 {
+ width: 100%;
+    height: 460px;
+    display: flex;
+}
+.container-2 > .outer{
+    background-color: rgb(100, 95, 95);
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.outer > ul{
+    list-style-type: circle;
+   
+}
+.outer > ul > li{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+.outer > ul > P {
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: rgb(173, 174, 175);
+}
+
+.container-2 > .pic{
+    background-image:  url("./media/kthub14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+section > .container-3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(174, 160, 178);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.container-3 > div{
+    border: 1rem solid white;
+    padding: 0rem;
+}
+.container-3 > div >h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.container-3 > div >p{
+    padding: 2rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+section > .container-4{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(86, 85, 81);
+    padding: 1rem;
+}
+.container-4 > h1{
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.container-4 > div > img{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 20%;
+}
+section > footer{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(237, 212, 212);
+    padding: 1rem ;
+}
+footer > .end{
+    display: flex;
+    padding: 0rem;
+    gap: 2rem;
+}
+.end > div{
+    border: 0.3rem solid rgb(164, 159, 159);
+    padding: 2rem;
+}
+.end > div  > h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.end > div  > p{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+footer> h1{
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+footer > .gallery > img{
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-left: 45%;
+}
+.gallery > h1{
+   text-align: center;
+   font-size: 1.7rem;
+}
+footer> .last-last{
+    display: flex;
+    justify-content: space-between;
+}
+.last-last > p{
+    text-decoration: underline;
+}
